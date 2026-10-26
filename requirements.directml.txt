@@ -1,0 +1,4 @@
+# Windows / Python 3.12; verified on RX 6750 GRE 10GB.
+-r requirements.tested.txt
+torch-directml==0.2.5.dev240914
+torchvision==0.19.1

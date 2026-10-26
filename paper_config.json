@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "epochs": 160,
+    "patience": 30,
+    "min_epochs": 20,
+    "clinical_warmup": 0,
+    "hidden_dim": 16,
+    "heads": 2,
+    "layers": 1,
+    "dropout": 0.3,
+    "weight_decay": 0.01,
+    "graph_head_gain": 0.1
+  }
+}

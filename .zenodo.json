@@ -1,0 +1,25 @@
+{
+  "title": "KG-MSPF: Knowledge-Guided Multi-Scale Prognosis with Subtype-Aware Heterogeneous Graphs",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Evaluated KG-MSPF source code, fixed experiment settings, survival baselines, component controls and data preparation utilities. This code-only distribution contains no precomputed performance tables, study-result figures or patient-level datasets. Data are obtained separately from the original providers.",
+  "creators": [
+    {
+      "name": "Wang, Feiran"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "survival analysis",
+    "heterogeneous graphs",
+    "breast cancer",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/salty-kk/KG-MSPF",
+      "scheme": "url",
+      "relation": "isSupplementTo"
+    }
+  ]
+}

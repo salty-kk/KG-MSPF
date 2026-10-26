@@ -1,0 +1,14 @@
+{
+  "KG-MSPF": "Hidden width 16, 2 heads, 1 relational layer, dropout 0.3, AdamW weight decay 0.01; Cox ties and training-fold preprocessing as implemented.",
+  "Clinical-Cox": "Penalized Cox model with alpha=1e-6",
+  "Clinical+PAM50-Cox": "Cox on clinical variables plus observed PAM50 labels",
+  "FullConcat-Cox": "Cox on shared fold-specific flattened multimodal inputs",
+  "FullConcat-LASSO-Cox": "FISTA Cox LASSO, relative penalty path, independently preprocessed inner folds",
+  "RSF": "scikit-survival RandomSurvivalForest; leaf-size choice on inner training/validation",
+  "DeepSurv": "Cox MLP reimplementation",
+  "DeepHit": "Single-event discrete-time PMF/ranking reimplementation",
+  "SurvTRACE": "SurvTRACE-style single-event Transformer reimplementation, not the authors' original implementation",
+  "Cox-PASNet": "Cox-PASNet-style pathway-mask reimplementation, without the original sparse-coding step",
+  "HomoGAT": "Relation-agnostic GAT baseline; its independent baseline schedule has minimum epoch 60.",
+  "molecular_graph_only": "Additional diagnostic ablation; clinical node values masked, PAM50 removed, no clinical head or Cox blending"
+}
